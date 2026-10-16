@@ -135,7 +135,7 @@ border-radius: 30px;
     background-repeat: no-repeat;
 
     width: 90%;
-    min-height: 600px;
+   
     margin: 50px auto;
     padding: 50px;
 
@@ -702,4 +702,185 @@ transition: color 0.5;
     font-size: 20px;
    
     color: #000000;
+}
+
+
+@media (max-width:768px){
+
+    .hero{
+    
+          display: flex;
+        align-items: start;
+        flex-direction: column;
+       padding: 30px;
+
+    }
+
+    
+
+    
+
+    .hero-image img{
+        display: none;
+    }
+
+    .hero-content{
+      max-width: 100%;
+        
+
+      
+    }
+
+  .hero-content h1{
+    font-size: 40px;
+  }
+
+
+  .hero-content p{
+    font-size: 20px;
+  }
+
+  .hero-content h2 {
+    font-size: 25px;
+  }
+/* about */
+
+
+    .about{
+       display: flex;
+       flex-direction: column;
+       padding: 30px;
+       align-items: flex-start;
+    }
+
+
+.about img{
+    display: none;
+    
+}
+
+
+
+
+
+.about-content{
+    max-width: 90%;
+
+}
+
+
+
+.about-content h2{
+  
+    font-size: 25px;
+
+    
+}
+
+
+
+.about-content p{
+   
+   
+     
+    font-size: 20px;
+   
+}
+
+.about-btn{
+
+
+    padding: 10px 20px;
+    margin-top: 20px;
+  
+   
+}
+
+
+
+
+.skills{
+  
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+
+   background-image: url('../backgroundimg/backgroundskills.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+.skills-heading h2{
+     
+      font-size: 25px;
+}
+
+
+
+.skills-heading p{
+    
+     
+    font-size: 20px;
+   
+  
+}
+@media (max-width: 768px) {
+
+      .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    width: 100%;
+}
+    
+
+    .skill-item {
+        min-width: 0;
+        padding: 16px 5px;
+        gap: 14px;
+    }
+
+    .skill-item span {
+        font-size: 14px;
+        text-align: center;
+        overflow-wrap: anywhere;
+        line-height: 1.4;
+    }
+
+}
+
+
+
+
+
+
+    .projects{
+        display: none;
+
+    }
+
+    .footer{
+        display: none;
+    }
+
+    header{
+        display: none;
+    }
+
+    .footer-bottom{
+        display: none;
+    }
+
+
+
+
 }
